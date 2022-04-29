@@ -1,0 +1,38 @@
+[
+  {
+    "traceId": "53c209718f7c0134",
+    "parentId": "53c209718f7c0134",
+    "id": "694806a1ae3253ee",
+    "kind": "CLIENT",
+    "name": "get cars",
+    "timestamp": 1651259171222306,
+    "duration": 5492205,
+    "localEndpoint": {
+      "serviceName": "default"
+    },
+    "tags": {
+      "http.method": "GET",
+      "http.path": "/cars"
+    }
+  },
+  {
+    "traceId": "53c209718f7c0134",
+    "id": "53c209718f7c0134",
+    "kind": "SERVER",
+    "name": "post /graphql",
+    "timestamp": 1651259171131222,
+    "duration": 5647938,
+    "localEndpoint": {
+      "serviceName": "default"
+    },
+    "remoteEndpoint": {
+      "ipv6": "::1",
+      "port": 53619
+    },
+    "tags": {
+      "http.method": "POST",
+      "http.path": "/graphql",
+      "mvc.controller.class": "GraphQlWebFluxAutoConfiguration$$Lambda$932/0x0000000800535c40"
+    }
+  }
+]

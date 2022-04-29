@@ -1,0 +1,22 @@
+[
+  {
+    "traceId": "8e854ca9276443aa",
+    "id": "8e854ca9276443aa",
+    "kind": "SERVER",
+    "name": "post /graphql",
+    "timestamp": 1651258459674572,
+    "duration": 5634017,
+    "localEndpoint": {
+      "serviceName": "default"
+    },
+    "remoteEndpoint": {
+      "ipv6": "::1",
+      "port": 53427
+    },
+    "tags": {
+      "http.method": "POST",
+      "http.path": "/graphql",
+      "mvc.controller.class": "GraphQlWebFluxAutoConfiguration$$Lambda$933/0x000000080053c440"
+    }
+  }
+]
